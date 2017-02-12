@@ -5,8 +5,6 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0" :scope "provided"]
                  [org.clojure/clojurescript "1.9.456" :scope "provided"]
-                 [org.roman01la/scrum "0.1.0-SNAPSHOT" :scope "provided"]
-                 [rum "0.10.8" :scope "provided"]
                  [funcool/bide "1.4.0"]
                  [kibu/pushy "0.3.6"]]
 

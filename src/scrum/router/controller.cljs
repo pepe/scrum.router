@@ -5,11 +5,11 @@
 
 (defmulti control (fn [action] action))
 
-(defmethod control :default [action _ db]
-  db)
+(defmethod control :default [_ _ state]
+  state)
 
-(defmethod control :init [_ _ db]
-  (assoc db :router initial-state))
+(defmethod control :init []
+  initial-state)
 
-(defmethod control :push [_ [route params] db]
-  (assoc-in db [:router :route] [route params]))
+(defmethod control :push [_ [route params] state]
+  (assoc state :route [route params]))
