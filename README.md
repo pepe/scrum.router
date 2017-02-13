@@ -2,6 +2,8 @@
 
 *Routing library for [Scrum](https://github.com/roman01la/scrum)*
 
+[![Clojars](https://img.shields.io/clojars/v/org.roman01la/scrum.router.svg)](https://clojars.org/org.roman01la/scrum.router)
+
 ## Table of Contents
 
 - [Installation](#installation)
