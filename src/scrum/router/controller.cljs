@@ -11,5 +11,5 @@
 (defmethod control :init []
   initial-state)
 
-(defmethod control :push [_ [route params] state]
-  (assoc state :route [route params]))
+(defmethod control :push [_ [route] state]
+  (assoc state :route route))
